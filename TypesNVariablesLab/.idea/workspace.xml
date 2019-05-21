@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TypesNVariablesLab.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="115" selection-start-line="115" selection-end-line="115" />
+            <state relative-caret-position="-1113">
+              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -46,8 +46,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="369" />
-    <option name="width" value="1004" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,15 +57,15 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../AngularJS/ToH" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -110,16 +110,17 @@
       <updated>1558355993453</updated>
       <workItem from="1558356001063" duration="10023000" />
       <workItem from="1558366463358" duration="13000" />
+      <workItem from="1558366815258" duration="3784000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10036000" />
+    <option name="totallyTimeSpent" value="13820000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="369" y="0" width="1004" height="735" extended-state="0" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35275424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.53375196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -156,8 +157,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/TypesNVariablesLab.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="115" selection-start-line="115" selection-end-line="115" />
+        <state relative-caret-position="-1113">
+          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
         </state>
       </provider>
     </entry>
