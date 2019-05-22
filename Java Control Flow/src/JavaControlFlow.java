@@ -1,10 +1,7 @@
 import java.util.Scanner;
 
 public class JavaControlFlow {
-    static int [] myArray = new int[30];
     public static void main (String [] args) {
-        branchOne(22);
-        System.out.println(branchTwo(22));
         Scanner scanner = new Scanner(System.in);
         char again;
         do {
@@ -107,6 +104,9 @@ public class JavaControlFlow {
             System.out.println(item);
         }
 
+        branchOne(myArray,22);
+        System.out.println(branchTwo(myArray,25));
+
         for (int i = 0; i < myArray.length; i++) {
             myArray[i] = (i+1)*2;
         }
@@ -135,12 +135,11 @@ public class JavaControlFlow {
         }
     }
 
-    static void branchOne (int b) {
-        int [] myArray = new int[30];
-        for (int i = 0; i < myArray.length; i++) {
-            myArray[i] = i;
+    static void branchOne (int[] arr, int b) {
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = i;
         }
-        for (int item: myArray){
+        for (int item: arr){
             if (item == b) break;
             if (item % 2 != 0) {
                 continue;
@@ -149,13 +148,12 @@ public class JavaControlFlow {
             }
         }
     }
-    static int branchTwo (int b) {
-         int [] myArray = new int[30];
+    static int branchTwo (int [] arr, int b) {
             int evenTotal = 0;
-            for (int i = 0; i < myArray.length; i++) {
-                myArray[i] = i;
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] = i;
             }
-            for (int item: myArray){
+            for (int item: arr){
                 if (item % 2 == 0) {
                    evenTotal += item;
                 } else if (item % 2 != 0) {
