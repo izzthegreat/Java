@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f54bc7c4-3130-468e-b76d-4e33d616d5e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Canid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Canine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Carnivore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Chimpanzee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Earth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Feline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/GreatApe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Homo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/HumanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Orangutan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Pan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Panther.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Pongo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Primate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Vertibrate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Wolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/BookTitles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/MainStreet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/Stores/Bookstore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/Stores/CoffeeShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/Stores/ConvenienceStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/Stores/SandwichShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/Stores/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/Stores/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CityProject/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CityProject/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CityProject/src/RunSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewStuff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stuff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Troll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructuresExcercise/DataStructuresExcercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructuresExcercise/src/DataStructuresExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factorial/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factorial/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factorial/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factorial/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factorial/src/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanoi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanoi/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanoi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanoi/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanoi/src/Hanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MergeSort/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/7elevenProducts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/CloverJoeMenu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/NJCMenu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/MethodsAndClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/Bookstore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/CoffeeShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/ConvenienceStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/SandwichShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Earth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/src/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sort Practice/src/SortPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuckyNumbers/src/LuckyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuckyNumbers/src/LuckyNumbers.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace>e</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests.java" />
+        <option value="$PROJECT_DIR$/src/Troll.java" />
+        <option value="$PROJECT_DIR$/src/stuff.java" />
+        <option value="$PROJECT_DIR$/src/NewStuff.java" />
+        <option value="$PROJECT_DIR$/src/Stuff.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Comments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Comments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Comments" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Comments" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.NewStuff">
+    <configuration name="NewStuff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NewStuff" />
+      <module name="Comments" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stuff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stuff" />
+      <module name="Comments" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Troll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Troll" />
+      <module name="Comments" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.dostuff" type="ArquillianJUnit" factoryName="" temporary="true" nameIsGenerated="true">
+      <module name="Comments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MainTest" />
+      <option name="METHOD_NAME" value="dostuff" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.FixedTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Comments" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="FixedTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.NewStuff" />
+        <item itemvalue="Application.Stuff" />
+        <item itemvalue="JUnit.Tests.FixedTests" />
+        <item itemvalue="Application.Troll" />
+        <item itemvalue="Arquillian JUnit.MainTest.dostuff" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f54bc7c4-3130-468e-b76d-4e33d616d5e4" name="Default Changelist" comment="" />
+      <created>1559313523423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559313523423</updated>
+      <workItem from="1559313527622" duration="7985000" />
+      <workItem from="1559322369640" duration="3363000" />
+      <workItem from="1559337558700" duration="645000" />
+      <workItem from="1559563882269" duration="896000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Tests_FixedTests - 2019.05.31 at 11h 53m 25s.xml">
+      <configuration name="Tests.FixedTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_FixedTests - 2019.05.31 at 11h 57m 56s.xml">
+      <configuration name="Tests.FixedTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_FixedTests - 2019.05.31 at 11h 58m 40s.xml">
+      <configuration name="Tests.FixedTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_FixedTests - 2019.05.31 at 11h 59m 04s.xml">
+      <configuration name="Tests.FixedTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_FixedTests - 2019.05.31 at 12h 15m 53s.xml">
+      <configuration name="Tests.FixedTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12889000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32820514" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32991454" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/MainTest.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="692" column="32" selection-start-line="692" selection-start-column="32" selection-end-line="692" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Troll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="287" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stuff.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NewStuff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Comments</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,36 @@
+MENU
+------------------------------
+Coffee
+--
+Batch Brew               $2.70
+Cold Brewed Coffee       $3.80
+Nitro Cold Brew          $4.50
+
+Espresso
+--
+Espresso                 $3.00
+Macchiato                $3.25
+Cortado                  $3.50
+Americano           $3.00/3.50*
+Cappuchino               $3.79
+Latte              $4.33/$4.66*
+Flavored Latte     $4.87/$5.14*
+
+*Hot/Iced
+
+Tea
+--
+Loose Leaf Tea           $3.25
+
+Tea Latte
+--
+Masala Chai              $4.33
+Bhakti Ginger Chai       $4.33
+Sweet Matcha Green       $4.50
+
+Etc.
+--
+House-Made Soda          $4.00
+Hot Chocolate            $3.79
+Kid's Hot Chocolate      $3.25
+------------------------------

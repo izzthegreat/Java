@@ -54,6 +54,7 @@ public class LuckyNumbers {
                 System.out.println("Please enter an integer.");
                 input = new Scanner(System.in).useDelimiter("\n");
             }
+            // Repeats if Number is out of Range
         } while (petAge <= 0);
 
         do {
@@ -84,7 +85,7 @@ public class LuckyNumbers {
                 System.out.println("Please enter an integer.");
                 input = new Scanner(System.in).useDelimiter("\n");
             }
-        } while (modelYear < 1900 || modelYear > 2019);
+        } while (modelYear < 1900 || modelYear >= 2019);
         modelYear = modelYear%100;
 
             System.out.println("6. What is the first name of your favorite actor/actress? ");
@@ -108,7 +109,7 @@ public class LuckyNumbers {
         while (magicNum > 75) magicNum -= 75;
     } // end doMagic method
 
-    // Choose 5 LuckyNumbers Numbers
+    // Choose 5 Lucky Numbers
     private static void pick5() {
         // Create an ArrayList of Values Generated Using the User Input.
         ArrayList<Integer> eightNums = new ArrayList<>();

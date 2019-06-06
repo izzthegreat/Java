@@ -1,0 +1,14 @@
+MENU
+-----------------------------------------------------
+Cheesesteak Sandwich                            $7.50
+Italian Chicken Sandwich                        $7.50
+Meatball Sandwich                               $7.50
+Italian Sausage & Peppers Sandwich              $6.50
+Italian Sausage & Peppers w/ Cheese Sandwich    $7.50
+Sausage Parmigiana Sandwich                     $7.25
+Meatball & Sausage Parmigiana Sandwich          $7.75
+Chicken Caesar Sub                              $7.25
+Pizza Sub                                       $7.25
+Caprese Sandwich                                $7.00
+Tuna Salad Sandwich                             $7.50
+-----------------------------------------------------
