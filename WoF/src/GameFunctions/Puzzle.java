@@ -1,7 +1,11 @@
 package GameFunctions;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;
+import javax.sound.sampled.*;
+
+import static javax.sound.sampled.AudioSystem.getClip;
 
 public class Puzzle {
     private static Scanner input = new Scanner(System.in);
@@ -9,14 +13,16 @@ public class Puzzle {
     private char[] revealedPuzzle;
     private String category;
     private int letterValue;
+    private Clip audio;
 
     Puzzle(String category, char[] revealedPuzzle){
         this.category = category;
         this.revealedPuzzle = revealedPuzzle;
-        for(char ltr: revealedPuzzle){ if (ltr == ' ') hiddenPuzzle.add(ltr); else hiddenPuzzle.add('-'); }
         for (int i=65; i<=90; i++) unguessedLetters.add((char)i);
-        vowels.add('A');vowels.add('E');vowels.add('I');vowels.add('O');vowels.add('U');
-        for (char ltr:unguessedLetters) if (!vowels.contains(ltr))consonants.add(ltr);
+        vowels.add('A'); vowels.add('E'); vowels.add('I'); vowels.add('O'); vowels.add('U');
+        for (char ltr: unguessedLetters) if (!vowels.contains(ltr))consonants.add(ltr);
+        for (char ltr: revealedPuzzle){ if (unguessedLetters.contains(ltr)) { hiddenPuzzle.add('\u25ae'); } else { hiddenPuzzle.add(ltr); } }
+        try { audio = getClip(); } catch (Exception e) { e.printStackTrace(); }
     }
 
     void printStatus(){
@@ -55,11 +61,13 @@ public class Puzzle {
                 Game.getCurrentPlayer().spendMoney(250);
                 for (int i = 0; i < this.revealedPuzzle.length; i++) {
                     if (this.revealedPuzzle[i] == guess) {
+                        letterDing();
                         count++;
                         this.hiddenPuzzle.set(i, this.revealedPuzzle[i]);
                     }
                 }
                 if (count == 0) {
+                    letterBuzzer();
                     System.out.println("There is no '" + guess + "' in the puzzle.");
                 } else if (count == 1) {
                     System.out.println("There is " + count + " " + guess + " in the puzzle.");
@@ -79,16 +87,59 @@ public class Puzzle {
         return count;
     }
 
+    void letterBuzzer() {
+        try {
+            audio.open(AudioSystem.getAudioInputStream(new File("audio/Buzzer.wav")));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        audio.start();
+        try {
+            Thread.sleep(500);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        audio.close();
+    }
+
+    private void letterDing(){
+        try {
+            audio.open(AudioSystem.getAudioInputStream(new File("audio/Ding.wav")));
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        audio.start();
+        try {
+            Thread.sleep(750);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        audio.close();
+    }
+
     void solve(String solution){
         String solvedPuzzle = "";
         for(char ltr:this.revealedPuzzle) solvedPuzzle=solvedPuzzle+ltr;
         if (solvedPuzzle.equals(solution.toUpperCase())) {
             System.out.println(solvedPuzzle);
             System.out.println(Game.getCurrentPlayer().getName() + " Wins with $" + Game.getCurrentPlayer().getWallet() + "!");
+            try {
+                audio.open(AudioSystem.getAudioInputStream(new File("audio/PuzzleSolve.wav")));
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            audio.start();
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            audio.close();
             Game.getCurrentPlayer().walletToBank();
             Game.finishRound();
         } else {
             System.out.println("Nice try, but no...");
+            letterBuzzer();
             Game.finishTurn();
         }
     }
@@ -113,14 +164,21 @@ public class Puzzle {
     }
 
     private int findLetters(char guess, int count) {
+        try {
+            audio = getClip();
+        } catch (LineUnavailableException e) {
+            e.printStackTrace();
+        }
         for (int i = 0; i < this.revealedPuzzle.length; i++) {
             if (this.revealedPuzzle[i] == guess){
+                letterDing();
                 count++;
                 this.hiddenPuzzle.set(i, this.revealedPuzzle[i]);
                 Game.getCurrentPlayer().gainMoney(letterValue);
             }
         }
         if (count == 0){
+            letterBuzzer();
             System.out.println("There are no " + guess + "'s in the puzzle.");
         } else if(count == 1){
             System.out.println("There is " + count + " " + guess +" in the puzzle." );
@@ -130,11 +188,5 @@ public class Puzzle {
         return count;
     }
 
-    ArrayList<Character> getHiddenPuzzle() {
-        return hiddenPuzzle;
-    }
-
-    void setLetterValue(int letterValue) {
-        this.letterValue = letterValue;
-    }
+    void setLetterValue(int letterValue) { this.letterValue = letterValue; }
 }
