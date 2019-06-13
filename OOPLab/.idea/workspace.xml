@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64af137e-be67-41a2-a549-7a8bb94075b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Canid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Canine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Carnivore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Chimpanzee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Earth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Feline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/GreatApe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Homo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/HumanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Mammal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Orangutan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Pan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Panther.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Pongo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Primate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Vertibrate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Wolf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/BookTitles.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/MainStreet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/Stores/Bookstore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/Stores/CoffeeShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/Stores/ConvenienceStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/Stores/SandwichShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/Stores/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Books/src/Stores/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CityProject/src/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CityProject/src/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CityProject/src/RunSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Comments/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Comments/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Comments/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Comments/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Comments/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Comments/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Comments/src/NewStuff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Comments/src/Stuff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Comments/src/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Comments/src/Troll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructuresExcercise/DataStructuresExcercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructuresExcercise/src/DataStructuresExercise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factorial/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factorial/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factorial/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factorial/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Factorial/src/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanoi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanoi/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanoi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanoi/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Hanoi/src/Hanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MergeSort/src/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/7elevenProducts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/CloverJoeMenu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/NJCMenu.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/MethodsAndClasses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/Bookstore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/CoffeeShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/ConvenienceStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/SandwichShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Earth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Sparrow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OOP/src/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOPLab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PLCMC/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PLCMC/GeneralBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PLCMC/LibraryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PLCMC/Loanable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PLCMC/Magazine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PLCMC/Newpaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PLCMC/Periodical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PLCMC/ReferenceBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PLCMC/Reservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Prime/src/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sort Practice/src/SortPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calc/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calc/src/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../calc/src/FunctionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LuckyNumbers/src/LuckyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuckyNumbers/src/LuckyNumbers.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/OOPLab.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SECOND">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PLCMC/LibraryItem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PLCMC/Book.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PLCMC/Loanable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PLCMC/Reservable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PLCMC/Periodical.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#116#117#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PLCMC/ReferenceBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PLCMC/GeneralBook.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PLCMC/Magazine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PLCMC/Newpaper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/PLCMC/ReferenceBook.java" />
+        <option value="$PROJECT_DIR$/src/PLCMC/GeneralBook.java" />
+        <option value="$PROJECT_DIR$/src/PLCMC/Magazine.java" />
+        <option value="$PROJECT_DIR$/src/PLCMC/Newpaper.java" />
+        <option value="$PROJECT_DIR$/src/PLCMC/Periodical.java" />
+        <option value="$PROJECT_DIR$/src/PLCMC/LibraryItem.java" />
+        <option value="$PROJECT_DIR$/src/PLCMC/Book.java" />
+        <option value="$PROJECT_DIR$/src/PLCMC/Reservable.java" />
+        <option value="$PROJECT_DIR$/src/PLCMC/Loanable.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="784" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OOPLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOPLab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOPLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOPLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OOPLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OOPLab" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="PLCMC" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64af137e-be67-41a2-a549-7a8bb94075b4" name="Default Changelist" comment="" />
+      <created>1559568100272</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559568100272</updated>
+      <workItem from="1559568163201" duration="10535000" />
+      <workItem from="1559653359983" duration="1279000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11814000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14069591" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/OOPLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OOPLab.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PLCMC/LibraryItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PLCMC/Loanable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PLCMC/Reservable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PLCMC/Periodical.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#156#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PLCMC/ReferenceBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PLCMC/GeneralBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PLCMC/Magazine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PLCMC/Newpaper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PLCMC/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -32,8 +32,7 @@ public class Game {
             String category = tmp.substring(0, tmp.indexOf(':'));
             String puzzleString = tmp.substring(tmp.indexOf(':') + 1);
             char[] revealedPuzzle = puzzleString.toCharArray();
-            Puzzle newPuzz = new Puzzle(category,revealedPuzzle);
-            puzzleList.add(newPuzz);
+            puzzleList.add(new Puzzle(category,revealedPuzzle));
         }
     }
 
@@ -44,7 +43,7 @@ public class Game {
         }
     }
 
-    public static void newGame(){
+    public static void newGame() {
         try { audio = getClip(); } catch (Exception e) { e.printStackTrace(); }
         try { intro = getClip(); } catch (Exception e) { e.printStackTrace(); }
         try {
@@ -119,8 +118,7 @@ public class Game {
         for(int i=0;i<numOfPlayers;i++){
             System.out.println("Please enter player name");
             String name = input.next();
-            Player newPlayer = new Player(name);
-            playerList.add(newPlayer);
+            playerList.add(new Player(name));
         }
         playerStartIndex = (int)Math.floor(Math.random()*playerList.size());
         playerIndex = playerStartIndex;
@@ -131,7 +129,7 @@ public class Game {
         playTurn();
     }
 
-    private static void playTurn(){
+    private static void playTurn() {
         int menuChoice = 0;
         do {
             try {
@@ -150,12 +148,27 @@ public class Game {
         } while (menuChoice < 1 || menuChoice > 4);
         switch (menuChoice){
             case 1:
-                spinTheWheel();
+                if (currentPuzzle.hasConsonants()) spinTheWheel();
+                else {
+                    currentPuzzle.letterBuzzer();
+                    System.out.println("There are no remaining consonants. Please select another option.");
+                    continueTurn();
+                }
                 break;
             case 2:
-                System.out.println("Enter a vowel.");
-                int count = currentPuzzle.buyAVowel();
-                if (count == 0){ Game.finishTurn(); } else { continueTurn(); }
+                if (currentPuzzle.hasVowels()) {
+                    System.out.println("Enter a vowel.");
+                    int count = currentPuzzle.buyAVowel();
+                    if (count == 0) {
+                        Game.finishTurn();
+                    } else {
+                        continueTurn();
+                    }
+                } else {
+                    currentPuzzle.letterBuzzer();
+                    System.out.println("There are no remaining vowels. Please select another option.");
+                    continueTurn();
+                }
                 break;
             case 3:
                 System.out.println("Enter your guess. (Spelling matters...)");
@@ -236,7 +249,7 @@ public class Game {
         }
     }
 
-    private static void continueTurn(){
+    private static void continueTurn() {
         currentPuzzle.printStatus();
         playTurn();
     }

@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="773547ec-2f8e-4b67-9b91-41b11d6c57e6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/GUI/WheelGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/src/main/java/com/dealership/cars/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/src/main/java/com/dealership/cars/domain/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cars/src/main/java/com/dealership/cars/domain/CarInventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/src/main/java/com/win/practice/controllers/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/src/main/java/com/win/practice/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/src/main/java/com/win/practice/domain/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameFunctions/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFunctions/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameFunctions/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFunctions/Puzzle.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GUI/WheelGUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WheelOfFortune.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="33" selection-start-column="33" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GameFunctions/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="79">
+              <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#loadPuzzle#0;class#Game#0" />
+                <element signature="method#loadWheel#0;class#Game#0" />
+                <element signature="method#newGame#0;class#Game#0" />
+                <element signature="method#playTurn#0;class#Game#0" />
+                <element signature="method#spinTheWheel#0;class#Game#0" />
+                <element signature="method#continueTurn#0;class#Game#0" />
+                <element signature="method#finishTurn#0;class#Game#0" />
+                <element signature="method#finishRound#0;class#Game#0" />
+                <element signature="method#finishGame#0;class#Game#0" />
+                <element signature="method#revealPuzzleSound#0;class#Game#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GameFunctions/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GameFunctions/Puzzle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="166" selection-start-line="166" selection-end-line="166" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#printStatus#0;class#Puzzle#0" />
+                <element signature="method#guessLetter#0;class#Puzzle#0" />
+                <element signature="method#letterBuzzer#0;class#Puzzle#0" />
+                <element signature="method#letterDing#0;class#Puzzle#0" />
+                <element signature="method#solve#0;class#Puzzle#0" />
+                <element signature="method#freePlay#0;class#Puzzle#0" />
+                <element signature="method#hasConsonants#0;class#Puzzle#0" />
+                <element signature="method#hasVowels#0;class#Puzzle#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Puzzle1.txt" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/PuzzleReader.java" />
+        <option value="$PROJECT_DIR$/src/Player.java" />
+        <option value="$PROJECT_DIR$/src/Utils.java" />
+        <option value="$PROJECT_DIR$/src/Puzzle.java" />
+        <option value="$PROJECT_DIR$/src/Game.java" />
+        <option value="$PROJECT_DIR$/Wheel.config" />
+        <option value="$PROJECT_DIR$/src/GameFunctions/Config.java" />
+        <option value="$PROJECT_DIR$/Wheel.cfg" />
+        <option value="$PROJECT_DIR$/src/GameFunctions/Utils.java" />
+        <option value="$PROJECT_DIR$/WheelTest.txt" />
+        <option value="$PROJECT_DIR$/Wheel.txt" />
+        <option value="$PROJECT_DIR$/src/GameFunctions/Player.java" />
+        <option value="$PROJECT_DIR$/src/TestAudio.java" />
+        <option value="$PROJECT_DIR$/src/AudioListener.java" />
+        <option value="$PROJECT_DIR$/Puzzles.txt" />
+        <option value="$PROJECT_DIR$/PlatinumPuzzles.txt" />
+        <option value="$PROJECT_DIR$/src/WheelOfFortune.java" />
+        <option value="$PROJECT_DIR$/AllTs.txt" />
+        <option value="$PROJECT_DIR$/src/GameFunctions/Puzzle.java" />
+        <option value="$PROJECT_DIR$/src/GUI/WoFgui.java" />
+        <option value="$PROJECT_DIR$/src/GUI/WheelPanel.java" />
+        <option value="$PROJECT_DIR$/src/GUI/Button.java" />
+        <option value="$PROJECT_DIR$/src/GUI/ExitButton.java" />
+        <option value="$PROJECT_DIR$/src/GUI/WheelGUI.java" />
+        <option value="$PROJECT_DIR$/src/GameFunctions/Game.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WoF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WoF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WoF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="GameFunctions" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleGUI/src/SimpleGUI.java" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\might\Documents\WIN Program\Java\WoF\audio" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.WheelOfFortune">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="WoF" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleGUI" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAudio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestAudio" />
+      <module name="WoF" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WheelGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.WheelGUI" />
+      <module name="WoF" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WheelOfFortune" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WheelOfFortune" />
+      <module name="WoF" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.WheelOfFortune" />
+      <item itemvalue="Application.TestAudio" />
+      <item itemvalue="Application.SimpleGUI" />
+      <item itemvalue="Application.WheelGUI" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WheelOfFortune" />
+        <item itemvalue="Application.WheelGUI" />
+        <item itemvalue="Application.SimpleGUI" />
+        <item itemvalue="Application.TestAudio" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="773547ec-2f8e-4b67-9b91-41b11d6c57e6" name="Default Changelist" comment="" />
+      <created>1559661036424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559661036424</updated>
+      <workItem from="1559661043488" duration="7912000" />
+      <workItem from="1559676396090" duration="9144000" />
+      <workItem from="1559740196907" duration="6340000" />
+      <workItem from="1559747798062" duration="40094000" />
+      <workItem from="1559861742386" duration="5614000" />
+      <workItem from="1559872777105" duration="12909000" />
+      <workItem from="1559908298391" duration="10242000" />
+      <workItem from="1559929998296" duration="2459000" />
+      <workItem from="1560015181528" duration="9320000" />
+      <workItem from="1560342630888" duration="3432000" />
+      <workItem from="1560346281974" duration="4355000" />
+      <workItem from="1560374584114" duration="589000" />
+      <workItem from="1560386981610" duration="338000" />
+    </task>
+    <task id="LOCAL-00001" summary="Wheel...Of...Fortune!">
+      <created>1559850971960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559850971960</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Sound">
+      <created>1559920213176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559920213176</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="112748000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954751" visible="true" weight="0.20726173" />
+      <window_info id="Structure" order="1" sideWeight="0.5045249" side_tool="true" weight="0.53375196" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.6564103" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5794872" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1982906" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32991454" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.9247863" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.26837608" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954751" visible="true" weight="0.301059" />
+      <window_info id="Structure" order="1" sideWeight="0.5045249" side_tool="true" weight="0.53375196" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.26666668" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1982906" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.9247863" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.26837608" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Wheel...Of...Fortune!" />
+    <MESSAGE value="Added Sound" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Sound" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="currentPuzzle.hiddenPuzzle" />
+        <watch expression="currentPuzzle.hiddenPuzzle" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/GameFunctions/Config.java" />
+    <entry file="file://$PROJECT_DIR$/WheelTest.txt" />
+    <entry file="file://$PROJECT_DIR$/WOF.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SECOND">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameFunctions/Utils.java" />
+    <entry file="file://$PROJECT_DIR$/src/AudioListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/TestAudio.java" />
+    <entry file="file://$PROJECT_DIR$/Puzzles.txt" />
+    <entry file="file://$PROJECT_DIR$/PlatinumPuzzles.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="1568" column="28" lean-forward="true" selection-start-line="1568" selection-start-column="28" selection-end-line="1568" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AllTs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wheel.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../SimpleGUI/src/SimpleGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/ExitListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/GUI/WheelPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/GameFunctions/Puzzle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#printStatus#0;class#Puzzle#0" />
+            <element signature="method#guessLetter#0;class#Puzzle#0" />
+            <element signature="method#letterBuzzer#0;class#Puzzle#0" />
+            <element signature="method#letterDing#0;class#Puzzle#0" />
+            <element signature="method#solve#0;class#Puzzle#0" />
+            <element signature="method#freePlay#0;class#Puzzle#0" />
+            <element signature="method#hasConsonants#0;class#Puzzle#0" />
+            <element signature="method#hasVowels#0;class#Puzzle#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameFunctions/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GameFunctions/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#loadPuzzle#0;class#Game#0" />
+            <element signature="method#loadWheel#0;class#Game#0" />
+            <element signature="method#newGame#0;class#Game#0" />
+            <element signature="method#playTurn#0;class#Game#0" />
+            <element signature="method#spinTheWheel#0;class#Game#0" />
+            <element signature="method#continueTurn#0;class#Game#0" />
+            <element signature="method#finishTurn#0;class#Game#0" />
+            <element signature="method#finishRound#0;class#Game#0" />
+            <element signature="method#finishGame#0;class#Game#0" />
+            <element signature="method#revealPuzzleSound#0;class#Game#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WheelOfFortune.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GUI/WheelGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

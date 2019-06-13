@@ -1,0 +1,1 @@
+import GameFunctions.*; public class WheelOfFortune { public static void main(String[] args) { Game.newGame(); }}

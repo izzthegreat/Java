@@ -189,4 +189,18 @@ public class Puzzle {
     }
 
     void setLetterValue(int letterValue) { this.letterValue = letterValue; }
+
+    boolean hasConsonants(){
+        for(char ltr: consonants) {
+            if (unguessedLetters.contains(ltr)) return true;
+        }
+        return false;
+    }
+
+    boolean hasVowels(){
+        for (char ltr: vowels) {
+            if (unguessedLetters.contains(ltr)) return true;
+        }
+        return false;
+    }
 }
