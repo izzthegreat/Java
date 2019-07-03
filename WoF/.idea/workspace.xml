@@ -2,14 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="773547ec-2f8e-4b67-9b91-41b11d6c57e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/GUI/WheelGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cars/src/main/java/com/dealership/cars/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cars/src/main/java/com/dealership/cars/domain/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cars/src/main/java/com/dealership/cars/domain/CarInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/src/main/java/com/win/practice/controllers/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/src/main/java/com/win/practice/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../practice/src/main/java/com/win/practice/domain/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphQLdemo/src/main/java/com/graphql/demo/controllers/PointController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphQLdemo/src/main/java/com/graphql/demo/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GraphQLdemo/src/main/resources/schema.graphqls.graphql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/Wheel.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/WheelOfFortuneGUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/audio/Bankrupt.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/audio/Buzzer.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/audio/ChantIntro.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/audio/Ding.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/audio/PuzzleReveal.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/audio/PuzzleSolve.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/audio/WheelSpin.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/audio/WheelTheme.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Realms of Alerinor/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Realms of Alerinor/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Realms of Alerinor/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Realms of Alerinor/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Realms of Alerinor/Realms of Alerinor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlatinumPuzzles.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PlatinumPuzzles.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/WoFCustomLogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/WoFLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../WheelOfFortuneGUI/src/WoFLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GUI/WheelGUI.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameFunctions/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFunctions/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameFunctions/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFunctions/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GameFunctions/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameFunctions/Puzzle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,77 +47,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GUI/WheelGUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WheelOfFortune.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="33" selection-start-column="33" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameFunctions/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#loadPuzzle#0;class#Game#0" />
-                <element signature="method#loadWheel#0;class#Game#0" />
-                <element signature="method#newGame#0;class#Game#0" />
-                <element signature="method#playTurn#0;class#Game#0" />
-                <element signature="method#spinTheWheel#0;class#Game#0" />
-                <element signature="method#continueTurn#0;class#Game#0" />
-                <element signature="method#finishTurn#0;class#Game#0" />
-                <element signature="method#finishRound#0;class#Game#0" />
-                <element signature="method#finishGame#0;class#Game#0" />
-                <element signature="method#revealPuzzleSound#0;class#Game#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameFunctions/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GameFunctions/Puzzle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="166" selection-start-line="166" selection-end-line="166" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#printStatus#0;class#Puzzle#0" />
-                <element signature="method#guessLetter#0;class#Puzzle#0" />
-                <element signature="method#letterBuzzer#0;class#Puzzle#0" />
-                <element signature="method#letterDing#0;class#Puzzle#0" />
-                <element signature="method#solve#0;class#Puzzle#0" />
-                <element signature="method#freePlay#0;class#Puzzle#0" />
-                <element signature="method#hasConsonants#0;class#Puzzle#0" />
-                <element signature="method#hasVowels#0;class#Puzzle#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,6 +55,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>�</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>'</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -121,27 +83,20 @@
         <option value="$PROJECT_DIR$/src/GameFunctions/Utils.java" />
         <option value="$PROJECT_DIR$/WheelTest.txt" />
         <option value="$PROJECT_DIR$/Wheel.txt" />
-        <option value="$PROJECT_DIR$/src/GameFunctions/Player.java" />
         <option value="$PROJECT_DIR$/src/TestAudio.java" />
         <option value="$PROJECT_DIR$/src/AudioListener.java" />
         <option value="$PROJECT_DIR$/Puzzles.txt" />
-        <option value="$PROJECT_DIR$/PlatinumPuzzles.txt" />
         <option value="$PROJECT_DIR$/src/WheelOfFortune.java" />
         <option value="$PROJECT_DIR$/AllTs.txt" />
-        <option value="$PROJECT_DIR$/src/GameFunctions/Puzzle.java" />
         <option value="$PROJECT_DIR$/src/GUI/WoFgui.java" />
         <option value="$PROJECT_DIR$/src/GUI/WheelPanel.java" />
         <option value="$PROJECT_DIR$/src/GUI/Button.java" />
         <option value="$PROJECT_DIR$/src/GUI/ExitButton.java" />
         <option value="$PROJECT_DIR$/src/GUI/WheelGUI.java" />
+        <option value="$PROJECT_DIR$/src/GameFunctions/Player.java" />
         <option value="$PROJECT_DIR$/src/GameFunctions/Game.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+        <option value="$PROJECT_DIR$/src/GameFunctions/Puzzle.java" />
+        <option value="$PROJECT_DIR$/PlatinumPuzzles.txt" />
       </list>
     </option>
   </component>
@@ -158,8 +113,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,32 +120,27 @@
               <item name="WoF" type="b2602c69:ProjectViewProjectNode" />
               <item name="WoF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="WoF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WoF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WoF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WoF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="GameFunctions" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SimpleGUI/src/SimpleGUI.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\might\Documents\WIN Program\Java\WoF" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\might\Documents\WIN Program\Java\WoF\audio" />
     </key>
@@ -293,6 +241,11 @@
       <workItem from="1560346281974" duration="4355000" />
       <workItem from="1560374584114" duration="589000" />
       <workItem from="1560386981610" duration="338000" />
+      <workItem from="1560430863561" duration="273000" />
+      <workItem from="1560433729279" duration="5759000" />
+      <workItem from="1560516081430" duration="141000" />
+      <workItem from="1560524568467" duration="12432000" />
+      <workItem from="1560547188739" duration="727000" />
     </task>
     <task id="LOCAL-00001" summary="Wheel...Of...Fortune!">
       <created>1559850971960</created>
@@ -312,7 +265,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112748000" />
+    <option name="totallyTimeSpent" value="132080000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -325,9 +278,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954751" visible="true" weight="0.20726173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954751" visible="true" weight="0.19440243" />
       <window_info id="Structure" order="1" sideWeight="0.5045249" side_tool="true" weight="0.53375196" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -336,7 +288,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.6564103" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5794872" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.7931624" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.1982906" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,6 +299,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.9247863" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.26837608" />
+      <window_info anchor="bottom" id="GraphQL" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -358,26 +311,27 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4954751" visible="true" weight="0.301059" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4954751" visible="true" weight="0.1913767" />
       <window_info id="Structure" order="1" sideWeight="0.5045249" side_tool="true" weight="0.53375196" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.26666668" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.1982906" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50075644" side_tool="true" weight="0.9247863" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.26837608" />
+      <window_info anchor="bottom" id="GraphQL" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.6564103" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49924356" visible="true" weight="0.23247863" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.1982906" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32991454" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50075644" side_tool="true" weight="0.9247863" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.26837608" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -421,24 +375,10 @@
     <entry file="file://$PROJECT_DIR$/src/AudioListener.java" />
     <entry file="file://$PROJECT_DIR$/src/TestAudio.java" />
     <entry file="file://$PROJECT_DIR$/Puzzles.txt" />
-    <entry file="file://$PROJECT_DIR$/PlatinumPuzzles.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="1568" column="28" lean-forward="true" selection-start-line="1568" selection-start-column="28" selection-end-line="1568" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AllTs.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Wheel.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -454,41 +394,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/ExitListener.java" />
     <entry file="file://$PROJECT_DIR$/src/GUI/WheelPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/GameFunctions/Puzzle.java">
+    <entry file="file://$PROJECT_DIR$/src/GUI/WheelGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="166" selection-start-line="166" selection-end-line="166" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#printStatus#0;class#Puzzle#0" />
-            <element signature="method#guessLetter#0;class#Puzzle#0" />
-            <element signature="method#letterBuzzer#0;class#Puzzle#0" />
-            <element signature="method#letterDing#0;class#Puzzle#0" />
-            <element signature="method#solve#0;class#Puzzle#0" />
-            <element signature="method#freePlay#0;class#Puzzle#0" />
-            <element signature="method#hasConsonants#0;class#Puzzle#0" />
-            <element signature="method#hasVowels#0;class#Puzzle#0" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameFunctions/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="264">
+          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Wheel.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WheelOfFortuneGUI/Wheel.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WheelOfFortune.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameFunctions/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+        <state relative-caret-position="308">
+          <caret line="204" column="50" lean-forward="true" selection-start-line="204" selection-start-column="50" selection-end-line="204" selection-end-column="50" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#loadPuzzle#0;class#Game#0" />
             <element signature="method#loadWheel#0;class#Game#0" />
-            <element signature="method#newGame#0;class#Game#0" />
-            <element signature="method#playTurn#0;class#Game#0" />
             <element signature="method#spinTheWheel#0;class#Game#0" />
             <element signature="method#continueTurn#0;class#Game#0" />
             <element signature="method#finishTurn#0;class#Game#0" />
@@ -499,17 +441,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/WheelOfFortune.java">
+    <entry file="file://$PROJECT_DIR$/PlatinumPuzzles.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" selection-start-column="33" selection-end-column="33" />
+        <state relative-caret-position="34556">
+          <caret line="1746" column="36" selection-start-line="1746" selection-start-column="36" selection-end-line="1746" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/WheelGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/GameFunctions/Puzzle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="947">
+          <caret line="125" column="58" selection-start-line="125" selection-start-column="58" selection-end-line="125" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#letterDing#0;class#Puzzle#0" />
+            <element signature="method#freePlay#0;class#Puzzle#0" />
+            <element signature="method#hasConsonants#0;class#Puzzle#0" />
+            <element signature="method#hasVowels#0;class#Puzzle#0" />
+          </folding>
         </state>
       </provider>
     </entry>

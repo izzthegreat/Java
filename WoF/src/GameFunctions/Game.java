@@ -23,9 +23,9 @@ public class Game {
     private static Player currentPlayer;
     private static int wheelIndex, puzzleIndex, playerIndex, playerStartIndex;
 
+    // Load each puzzle into a Puzzle Object and add to an ArrayList of puzzles
     private static void loadPuzzle() throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader("PlatinumPuzzles.txt"));
-//        BufferedReader reader = new BufferedReader(new FileReader("AllTs.txt"));
         int lines = Integer.valueOf(reader.readLine());
         for(int i = 0; i < lines; i++) {
             String tmp = reader.readLine().toUpperCase();
@@ -36,6 +36,7 @@ public class Game {
         }
     }
 
+    // load the wheel file into an ArrayList
     private static void loadWheel() throws IOException {
         BufferedReader reader = new BufferedReader(new FileReader("Wheel.txt"));
         for(int i = 0; i < 24; i++) {
@@ -43,7 +44,9 @@ public class Game {
         }
     }
 
+    // Game set-up method
     public static void newGame() {
+        //Intro fanfare
         try { audio = getClip(); } catch (Exception e) { e.printStackTrace(); }
         try { intro = getClip(); } catch (Exception e) { e.printStackTrace(); }
         try {
@@ -80,6 +83,7 @@ public class Game {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        // Main menu music
         intro.loop(Clip.LOOP_CONTINUOUSLY);
         audio.close();
         System.out.println("--------------------");
@@ -90,6 +94,8 @@ public class Game {
             e.printStackTrace();
         }
         intro.close();
+
+        // Load the puzzle and wheel files
         try { loadWheel(); } catch (IOException e) {
             System.out.println("Error: Couldn't read wheel file.");
             exitGame();
@@ -98,14 +104,20 @@ public class Game {
             System.out.println("Error: Couldn't read puzzle file.");
             exitGame();
         }
+
+        // Select 3 random puzzles for this game
         while (puzzleOrder.size() < 3){
             int index = (int)Math.floor(Math.random()*puzzleList.size());
-            if (!puzzleOrder.contains(index)) puzzleOrder.add(index);
+            if (!puzzleOrder.contains(index)) puzzleOrder.add(index); // This line prevents duplicate puzzles
         }
-        wheelIndex = 0;
-        puzzleIndex = 0;
+        wheelIndex = 0; // Sets the wheel to start at the beginning
+        puzzleIndex = 0; // Chooses the first puzzle...
+        // ...and move it to the currentPuzzle so it can be used for the current (in this case, first) round
         currentPuzzle = puzzleList.get(puzzleOrder.get(puzzleIndex));
         int numOfPlayers = 0;
+
+        // Check for number of players
+        // (Currently no max)
         do {
             try{
                 System.out.println("How many are playing?");
@@ -115,21 +127,31 @@ public class Game {
                 input = new Scanner(System.in);
             }
         } while (numOfPlayers <= 0);
+
+        // Get player names until you reach the number provided.
         for(int i=0;i<numOfPlayers;i++){
             System.out.println("Please enter player name");
             String name = input.next();
             playerList.add(new Player(name));
         }
+
+        // Choose a random starting player for the first round
         playerStartIndex = (int)Math.floor(Math.random()*playerList.size());
         playerIndex = playerStartIndex;
         currentPlayer = playerList.get(playerIndex);
+
+        // Print out the current scores and puzzle
         currentPuzzle.printStatus();
         revealPuzzleSound();
+
+        // Begin the first turn
         System.out.println("It's " + currentPlayer.getName() + "'s turn!");
         playTurn();
-    }
+    } // End newGame method
 
+    // Turn menu method
     private static void playTurn() {
+        // Provide menu options
         int menuChoice = 0;
         do {
             try {
@@ -138,76 +160,93 @@ public class Game {
                 System.out.println("3. Solve the Puzzle");
                 System.out.println("4. Quit the Program");
                 System.out.println("What do you want to do? (1-4):");
-                menuChoice = input.nextInt();
+                menuChoice = input.nextInt(); //Check for menu input
+
                 if (menuChoice < 1 || menuChoice > 4) System.out.println("Please enter a valid menu option.");
-            } catch (Exception e) {
+            } catch (Exception e) { // Validate that input IS a number
                 System.out.println("Please enter a number. (1-4)");
-                input = new Scanner(System.in);
+                input = new Scanner(System.in); // Clear the input scanner
                 currentPuzzle.printStatus();
             }
+            // Validate that number entered is between 1 & 4
+            // If not return to the menu
         } while (menuChoice < 1 || menuChoice > 4);
         switch (menuChoice){
-            case 1:
+            case 1: // Spin
+                // Only allow option 1 if consonants remain in the letter bank
                 if (currentPuzzle.hasConsonants()) spinTheWheel();
                 else {
                     currentPuzzle.letterBuzzer();
                     System.out.println("There are no remaining consonants. Please select another option.");
-                    continueTurn();
+                    continueTurn(); // If there are no consonants, return to main menu.
                 }
                 break;
-            case 2:
+
+            case 2: // Vowel
+                // Only allow option 2 if vowels remain in the letter bank
                 if (currentPuzzle.hasVowels()) {
                     System.out.println("Enter a vowel.");
                     int count = currentPuzzle.buyAVowel();
-                    if (count == 0) {
+                    if (count == 0) { // If there were none of the letter guessed, turn ends
                         Game.finishTurn();
                     } else {
-                        continueTurn();
+                        continueTurn(); // If you guessed correctly, return to the menu
                     }
                 } else {
                     currentPuzzle.letterBuzzer();
                     System.out.println("There are no remaining vowels. Please select another option.");
-                    continueTurn();
+                    continueTurn(); //If there are no vowels, return to the menu
                 }
                 break;
-            case 3:
+
+            case 3: // Solve
                 System.out.println("Enter your guess. (Spelling matters...)");
                 input.useDelimiter("\n");
                 currentPuzzle.solve(input.next());
                 input.reset();
                 break;
-            case 4:
+
+            case 4: // Exit
                 System.out.println("Thanks for playing");
                 exitGame();
                 break;
         }
-    }
+    } // End playTurn method
 
+    // Wheel mechanism method
     private static void spinTheWheel() {
         String currentSpace = "";
-        int strength = (int)Math.ceil((Math.random() * 24) + 72);
+
+        // Spin distance is randomized w/ minimum of 3 full rotations
+        int strength = 72 + (int)Math.ceil(Math.random() * 24);
         try {
             audio.open(AudioSystem.getAudioInputStream(new File("audio/WheelSpin.wav")));
         } catch (Exception e) {
             e.printStackTrace();
         }
         audio.start();
+        // Iterate through the wheel based on spin strength
         for(int i = 0; i < strength; i++) {
+            // When it reaches the end of the arrayList, loop around to index 0
             if (wheelIndex<wheel.size() - 1)wheelIndex += 1;else wheelIndex = 0;
             currentSpace = wheel.get(wheelIndex);
+            // "\r" returns the cursor to the beginning of the current line allowing for reprint in the same space
             System.out.print("\r" + '\u25b6' + currentSpace);
-            try {
+            try { // Slow it down to make the iteration visible
                 Thread.sleep(50);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
         }
         audio.close();
+
+        // Start a new line after the wheel spin
         System.out.println("\n");
+
         int count = 0;
         switch (currentSpace){
             case "BANKRUPT":
-                try {
+                try { // Play Bankrupt sound
                     audio.open(AudioSystem.getAudioInputStream(new File("audio/Bankrupt.wav")));
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -219,41 +258,49 @@ public class Game {
                     e.printStackTrace();
                 }
                 audio.close();
-                currentPlayer.setWallet(0);
-                finishTurn();
+
+                currentPlayer.bankrupt(); // Current player looses all of heir money
+                finishTurn(); // Move to the next player
                 break;
+
             case "LOSE A TURN":
-                currentPuzzle.letterBuzzer();
+                currentPuzzle.letterBuzzer(); // Buzzer sound
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                finishTurn();
+                finishTurn(); // Move to the next player
                 break;
-            case "FREE PLAY":
+
+            case "FREE PLAY": // Special Space:
+                // On a Free Play all consonants are worth $500, vowels are free,
+                // and you get another spin/guess even if you're wrong
                 currentPuzzle.setLetterValue(500);
                 System.out.print("Enter a letter:");
                 currentPuzzle.freePlay();
                 count = -1;
                 break;
-            default:
+
+            default: //THis is for all numeric spin values
                 currentPuzzle.setLetterValue(Integer.valueOf(currentSpace.substring(1)));
                 System.out.print("Enter a letter:");
                 count = currentPuzzle.guessLetter();
         }
-        if (count == 0){
-            finishTurn();
+        if (count == 0){ // Check to see how many letters were revealed
+            finishTurn(); // If none, move to next player
         } else {
-            continueTurn();
+            continueTurn(); // If at least one letter is revealed go back to the menu
         }
-    }
+    } // End spinTheWheel method
 
+    // Return to the main menu without switching players
     private static void continueTurn() {
         currentPuzzle.printStatus();
         playTurn();
     }
 
+    // Advance to the next player
     static void finishTurn() {
         if(playerIndex == playerList.size()-1) playerIndex = 0; else playerIndex++;
         currentPlayer = playerList.get(playerIndex);
@@ -262,6 +309,7 @@ public class Game {
         playTurn();
     }
 
+    // Advance to the next puzzle
     static void finishRound(){
         int roundNo = puzzleIndex+1;
         System.out.println("End of Round " + roundNo);
@@ -274,13 +322,19 @@ public class Game {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        for (Player each: playerList) each.setWallet(0);
-        if (puzzleIndex < 2) {
-            puzzleIndex++;
+        for (Player each: playerList) each.bankrupt(); // Set each players wallet to 0
+        if (puzzleIndex < 2) { // If its not the end of round 3
+            puzzleIndex++; // Advance to the next Puzzle
             currentPuzzle = puzzleList.get(puzzleOrder.get(puzzleIndex));
+
+            // Advance the starting player
             if (playerStartIndex == playerList.size() - 1) {playerStartIndex = 0;} else {playerStartIndex++;}
             playerIndex = playerStartIndex;
+
+            // Make the new starting player the current player
             currentPlayer = playerList.get(playerIndex);
+
+            // Reveal the new puzzle
             currentPuzzle.printStatus();
             revealPuzzleSound();
             System.out.println("It's " + currentPlayer.getName() + "'s turn!");
@@ -312,6 +366,7 @@ public class Game {
         exitGame();
     }
 
+    // Exits the program
     private static void exitGame(){ System.exit(0); }
 
     private static void revealPuzzleSound(){

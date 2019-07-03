@@ -49,12 +49,12 @@ Around The House:Well-Stocked Pantry
 Around The House:Wicker Patio Furniture
 Around The House:Wooden Bookshelves
 Before & After:A Chip Off The Old Block Party
-Before & After:Adam�s Apple Pie A La Mode
-Before & After:Adam�s Apple Turnover
+Before & After:Adam's Apple Pie A La Mode
+Before & After:Adam's Apple Turnover
 Before & After:Alexander Graham Bell Ringer
 Before & After:Alexander The Great Britain
 Before & After:Alexander The Great Smoky Mountains
-Before & After:All In A Day�s Work Ethic
+Before & After:All In A Day's Work Ethic
 Before & After:Balance Of Power Mower
 Before & After:Beer Tap Dancing
 Before & After:Blood Pressure Points
@@ -85,9 +85,9 @@ Before & After:General Public Domain
 Before & After:Gravy Boat Captain
 Before & After:Holiday Cheer For The Underdog
 Before & After:Honest Opinion Poll
-Before & After:I�ll Be The Judge Of That Is Up To You
-Before & After:I�ve Got A Secret Passage
-Before & After:It�s Not Easy Being Green Beans
+Before & After:I'll Be The Judge Of That Is Up To You
+Before & After:I've Got A Secret Passage
+Before & After:It's Not Easy Being Green Beans
 Before & After:Kevin Bacon And Eggs
 Before & After:Kitchen Sponge Cake
 Before & After:Kung Fu Master Bedroom
@@ -133,7 +133,7 @@ Before & After:Sugar & Spice Rack
 Before & After:The Feeling Is Mutual Benefit
 Before & After:The Need For Speed Racer
 Before & After:The Three Little Pigs In A Blanket
-Before & After:There�s No Place Like Home On The Range
+Before & After:There's No Place Like Home On The Range
 Before & After:Three-Piece Suit Of Armor
 Before & After:Tomorrow Is Another Day Of Reckoning
 Before & After:Tootsie Roll Over And Play Dead
@@ -146,7 +146,7 @@ Before & After:Walking On Air Bubbles
 Before & After:What Are Friends For The Love Of Money
 Before & After:What Do You Think Fast
 Before & After:Wheel Of Fortune Cookies
-Before & After:Who�s Minding The Store In A Dry Place
+Before & After:Who's Minding The Store In A Dry Place
 Before & After:Wichita Kansas City Missouri
 Before & After:Wisdom Tooth Fairy
 Before & After:Wishing Well Done
@@ -208,7 +208,7 @@ Event:Halloween Costume Party
 Event:Hockey Practice
 Event:Independence Day
 Event:Island-Hopping
-Event:Lady Gaga�s Monster Ball Tour
+Event:Lady Gaga's Monster Ball Tour
 Event:Last Payday Of The Month
 Event:Lavish Party
 Event:Locker-Room Interview
@@ -225,9 +225,9 @@ Event:Riverboat Cruise
 Event:Running My First Marathon
 Event:Sailing Around The World
 Event:Science Experiment
-Event:Shriner�s Convention
+Event:Shriner's Convention
 Event:Silent Auction
-Event:Six O�clock News Broadcast
+Event:Six O'clock News Broadcast
 Event:Space Shuttle Launch
 Event:Spaghetti-Eating Contest
 Event:Start Of Daylight-Saving Time
@@ -256,13 +256,13 @@ Fictional Character:Cinderella
 Fictional Character:Daffy Duck
 Fictional Character:Father Time
 Fictional Character:Goldilocks
-Fictional Character:Green Lantern�s Alter Ego Hal Jordan
+Fictional Character:Green Lantern's Alter Ego Hal Jordan
 Fictional Character:Harry Potter
 Fictional Character:Make-Believe Friend
 Fictional Character:Raggedy Ann
 Fictional Character:Roman Goddess
 Fictional Character:Swamp Monster
-Fictional Character:Twilight�s Bella Swan
+Fictional Character:Twilight's Bella Swan
 Fictional Characters:Batman & Robin
 Fictional Characters:Hansel & Gretel
 Fictional Characters:King Arthur And His Knights
@@ -325,7 +325,7 @@ Food & Drink:Crunchy Radishes
 Food & Drink:Curry Shrimp
 Food & Drink:Deep-Fried Onion Rings
 Food & Drink:Delicious Chocolate Desserts
-Food & Drink:Devil�s Food Cake With Vanilla Icing
+Food & Drink:Devil's Food Cake With Vanilla Icing
 Food & Drink:Deviled Eggs
 Food & Drink:Egg-And-Cheese Sandwich
 Food & Drink:Exotic Fruit Flavors
@@ -350,7 +350,7 @@ Food & Drink:Fudge Cake With White-Chocolate Icing
 Food & Drink:Garbanzo Beans
 Food & Drink:Garlic Mushroom Chicken Alfredo
 Food & Drink:Georgia Peaches
-Food & Drink:Goat�s Milk
+Food & Drink:Goat's Milk
 Food & Drink:Goat-Cheese Ravioli
 Food & Drink:Green Bell Peppers
 Food & Drink:Green Leafy Vegetables
@@ -502,7 +502,7 @@ Fun & Games:Going On A Scavenger Hunt
 Fun & Games:Going Skiing
 Fun & Games:Going To A Slumber Party
 Fun & Games:Halloween Block Party
-Fun & Games:Knock Knock Who�s There?
+Fun & Games:Knock Knock Who's There?
 Fun & Games:League Night At The Bowling Alley
 Fun & Games:Leapfrog
 Fun & Games:Learning To Water-Ski
@@ -525,7 +525,7 @@ Fun & Games:Toy Action Figures
 Fun & Games:Toy Robot
 Fun & Games:Volleyball Match
 Fun & Games:Wheelbarrow Races
-Fun & Games:Women�s Lacrosse
+Fun & Games:Women's Lacrosse
 Fun & Games:Word Scramble
 Fun & Games:Yo-Yo Tricks
 In The Kitchen:Butcher Knife
@@ -607,11 +607,11 @@ Movie Title:Despicable Me
 Movie Title:Fast Five
 Movie Title:Just Go With It
 Movie Title:Larry Crowne
-Movie Title:Meek�s Cutoff
+Movie Title:Meek's Cutoff
 Movie Title:Midnight In Paris
-Movie Title:Mr. Popper�s Penguins
-Movie Title:The King�s Speech
-Movie Title:The Sorcerer�s Apprentice
+Movie Title:Mr. Popper's Penguins
+Movie Title:The King's Speech
+Movie Title:The Sorcerer's Apprentice
 Movie Title:Wall Street Money Never Sleeps
 Movie Title:Water For Elephants
 Occupation:Biologist
@@ -745,7 +745,7 @@ Person:House Husband
 Person:Innkeeper
 Person:Legendary Singer
 Person:Licensed Driver
-Person:Magician�s Assistant
+Person:Magician's Assistant
 Person:Missionary
 Person:Monarch
 Person:Mysterious Man
@@ -810,7 +810,7 @@ People:Jazz Ensemble
 People:Justice Department Attorneys
 People:Kings And Queens
 People:Ladies & Gentlemen
-People:Ladies� Auxiliary
+People:Ladies' Auxiliary
 People:Loud And Obnoxious Neighbors
 People:Magazine Readers
 People:Movers And Shakers
@@ -856,8 +856,8 @@ Phrase:Be On Your Best Behavior
 Phrase:Bells And Whistles
 Phrase:Breath Of Fresh Air
 Phrase:Bury The Hatchet
-Phrase:But Wait There�s More
-Phrase:Buy It And Let�s Go
+Phrase:But Wait There's More
+Phrase:Buy It And Let's Go
 Phrase:By The Process Of Elimination
 Phrase:By The Sweat Of My Brow
 Phrase:By Your Side
@@ -865,7 +865,7 @@ Phrase:Call Me When You Get A Second
 Phrase:Camera Shy
 Phrase:Cat Got Your Tongue?
 Phrase:Caught In The Act
-Phrase:Closed On Christmas And New Year�s
+Phrase:Closed On Christmas And New Year's
 Phrase:Clumsy As An Ox
 Phrase:Common Thread
 Phrase:Consider All The Variables
@@ -875,9 +875,9 @@ Phrase:Crying Wolf
 Phrase:Cute As A Button
 Phrase:Dinner Is Served
 Phrase:Do As I Say Not As I Do
-Phrase:Don�t Be A Party Pooper
-Phrase:Don�t Make Me Get Up
-Phrase:Don�t Put A Damper On Things
+Phrase:Don't Be A Party Pooper
+Phrase:Don't Make Me Get Up
+Phrase:Don't Put A Damper On Things
 Phrase:Double Whammy
 Phrase:Drive Safely
 Phrase:Easy To Assemble
@@ -915,22 +915,22 @@ Phrase:How Dare You!
 Phrase:How Do You Do?
 Phrase:I Approve
 Phrase:I Could Kick Myself
-Phrase:I Don�t Find That The Least Bit Funny
-Phrase:I�d Like To Change My Order
-Phrase:I�m Going To Make It My Business
-Phrase:I�m Starting My Diet Tomorrow
+Phrase:I Don't Find That The Least Bit Funny
+Phrase:I'd Like To Change My Order
+Phrase:I'm Going To Make It My Business
+Phrase:I'm Starting My Diet Tomorrow
 Phrase:If All Else Fails
-Phrase:If It�s Not One Thing It�s Another
+Phrase:If It's Not One Thing It's Another
 Phrase:In Good Health
 Phrase:In My Humble Opinion
 Phrase:In The Belly Of The Beast
 Phrase:Is Anyone Sitting Here?
-Phrase:Isn�t Love Grand?
+Phrase:Isn't Love Grand?
 Phrase:It Makes My Blood Boil
-Phrase:It�s A Breeze
-Phrase:It�s All The Rage
-Phrase:It�s Never Too Late
-Phrase:It�s Up To You
+Phrase:It's A Breeze
+Phrase:It's All The Rage
+Phrase:It's Never Too Late
+Phrase:It's Up To You
 Phrase:Jump The Gun
 Phrase:Just A Kid At Heart
 Phrase:Just Moments Away
@@ -984,9 +984,9 @@ Phrase:Right Before My Very Eyes
 Phrase:Right In Your Own Backyard
 Phrase:Robbing Peter To Pay Paul
 Phrase:Rock Solid
-Phrase:Rome Wasn�t Built In A Day
+Phrase:Rome Wasn't Built In A Day
 Phrase:Rubbing Elbows
-Phrase:She�s Just Going Through A Phase
+Phrase:She's Just Going Through A Phase
 Phrase:Show Me How
 Phrase:Show Your Stuff
 Phrase:Simply Irresistible
@@ -1000,11 +1000,11 @@ Phrase:Subplot Grows The Plot
 Phrase:Take It With A Grain Of Salt
 Phrase:Taking Drastic Measures
 Phrase:Tentatively Set
-Phrase:That�s Nothing To Sneeze At
+Phrase:That's Nothing To Sneeze At
 Phrase:The Apple Of My Eye
 Phrase:The Finer Things In Life
 Phrase:The Hand Is Quicker Than The Eye
-Phrase:The Joke�s On Me
+Phrase:The Joke's On Me
 Phrase:The Midas Touch
 Phrase:The Patience Of Job
 Phrase:The Real Mccoy
@@ -1012,7 +1012,7 @@ Phrase:The Whole Enchilada
 Phrase:The Whole Nine Yards
 Phrase:The Wolverine State
 Phrase:Thinking Outside The Box
-Phrase:This I�ve Got To See
+Phrase:This I've Got To See
 Phrase:This Just Struck Me Funny
 Phrase:Thundering Silence
 Phrase:Time-Honored Tradition
@@ -1029,18 +1029,18 @@ Phrase:Vouch For Me
 Phrase:Vying For Attention
 Phrase:We Pass The Savings On To You
 Phrase:What Is The Meaning Of This?
-Phrase:What�s For Dinner?
-Phrase:What�s The Word?
+Phrase:What's For Dinner?
+Phrase:What's The Word?
 Phrase:Where Do You Think You Are Going?
 Phrase:Who Do You Think You Are Talking To?
-Phrase:Why Don�t You Stay Awhile?
+Phrase:Why Don't You Stay Awhile?
 Phrase:Will You Marry Me?
 Phrase:With Pen In Hand
 Phrase:Work Out The Kinks
 Phrase:Would You Like To Join Us?
 Phrase:You Can Really Sink Your Teeth Into It
-Phrase:You Can�t Teach An Old Dog New Tricks
-Phrase:You Can�t Win Them All
+Phrase:You Can't Teach An Old Dog New Tricks
+Phrase:You Can't Win Them All
 Phrase:You Have Your Work Cut Out For You
 Phrase:You Just Made My Day
 Phrase:You Leave Me No Choice
@@ -1049,11 +1049,11 @@ Phrase:You Look Like A Million Dollars
 Phrase:You Must Be Absolutely Sure
 Phrase:You Need To Get Over Yourself
 Phrase:You Took The Words Right Out Of My Mouth
-Phrase:You�ll Never Know Unless You Try
-Phrase:You�re As Young As You Feel
-Phrase:You�re Gonna Love This
-Phrase:You�re Just The Sweetest Thing
-Phrase:You�re Looking Swell
+Phrase:You'll Never Know Unless You Try
+Phrase:You're As Young As You Feel
+Phrase:You're Gonna Love This
+Phrase:You're Just The Sweetest Thing
+Phrase:You're Looking Swell
 Phrase:You-Know-Who Is Back
 Phrase:Your Call Cannot Be Completed As Dialed
 Phrase:Your Wish Is My Command
@@ -1067,7 +1067,7 @@ Place:Boxing Ring
 Place:Branch Store
 Place:Brewpub
 Place:California Vineyard
-Place:Cashier�s Booth
+Place:Cashier's Booth
 Place:Center Of The Room
 Place:City Park
 Place:Coffee Shop
@@ -1088,7 +1088,7 @@ Place:Elegant Dining Room
 Place:Exclusive Waterfront Hotel
 Place:Exclusive Wedding Boutique
 Place:Family Farm
-Place:Farmers� Market
+Place:Farmers' Market
 Place:Fast-Food Restaurant
 Place:Favorite Candy Store
 Place:Flooded Basement
@@ -1133,7 +1133,7 @@ Place:Recording Studio
 Place:Room With A View Of The Ocean
 Place:Safari Park
 Place:School Playground
-Place:Shallow Kids� Pool
+Place:Shallow Kids' Pool
 Place:Social Security Office
 Place:Soothing Mountain Stream
 Place:State Historic Park
@@ -1182,7 +1182,7 @@ Proper Name:Legendary Musician Elton John
 Proper Name:Leonardo Da Vinci
 Proper Name:Martha Stewart
 Proper Name:Matthew Mcconaughey
-Proper Name:Modern Family�s Sofia Vergara
+Proper Name:Modern Family's Sofia Vergara
 Proper Name:Montreal Expos
 Proper Name:New Orleans Hornets
 Proper Name:Penelope Cruz
@@ -1212,10 +1212,10 @@ Quote:And They Lived Happily Ever After
 Quote:Birds Of A Feather Flock Together
 Quote:By The Power Vested In Me
 Quote:He Loves Me He Loves Me Not
-Quote:Here�s Looking At You Kid
+Quote:Here's Looking At You Kid
 Quote:Humpty-Dumpty Sat On A Wall
 Quote:Thirty Days Hath
-Quote:You Can�t Judge A Book By Its Cover
+Quote:You Can't Judge A Book By Its Cover
 Rhyme Time:April Showers Bring May Flowers
 Rhyme Time:Book Nook
 Rhyme Time:Bright Light
@@ -1223,7 +1223,7 @@ Rhyme Time:Caribou And Cockatoo
 Rhyme Time:Delicious And Nutritious
 Rhyme Time:Hotshot
 Rhyme Time:Hurly-Burly
-Rhyme Time:It�s My Way Or The Highway
+Rhyme Time:It's My Way Or The Highway
 Rhyme Time:Meal Deal
 Rhyme Time:Meter Reader
 Rhyme Time:Moaning And Groaning
@@ -1239,7 +1239,7 @@ Rhyme Time:Willy-Nilly
 Same Name:Austin & Supernatural Powers
 Same Name:Baby & Hall Monitor
 Same Name:Baking & Baby Powder
-Same Name:Batting & Lion�s Cage
+Same Name:Batting & Lion's Cage
 Same Name:Bermuda & Short Shorts
 Same Name:Calming & Adverse Effect
 Same Name:Canoe & Fraternity Paddle
@@ -1266,7 +1266,7 @@ Same Name:Orlando & Full Bloom
 Same Name:Panama & Grand Canal
 Same Name:Parcel & Guard Post
 Same Name:Personal & Wedding Planner
-Same Name:Sheriff�s & Name Badge
+Same Name:Sheriff's & Name Badge
 Same Name:State & Venture Capital
 Same Name:Storm & Power Surge
 Same Name:Sweet & Wisdom Tooth
@@ -1301,20 +1301,20 @@ Show Biz:The Show Must Go On
 Show Biz:Woody Allen Movies
 Song Lyrics:Celebrate Good Times Come On
 Song Lyrics:Dashing Through The Snow
-Song Lyrics:Don�t You Step On My Blue Suede Shoes
+Song Lyrics:Don't You Step On My Blue Suede Shoes
 Song Lyrics:Everything I Do I Do It For You
 Song Lyrics:Fly Me To The Moon
 Song Lyrics:Gray Skies Are Gonna Clear Up
 Song Lyrics:Home On The Range
 Song Lyrics:I Did It My Way
-Song Lyrics:It�s Been A Hard Day�s Night
-Song Lyrics:Money Can�t Buy Me Love
+Song Lyrics:It's Been A Hard Day's Night
+Song Lyrics:Money Can't Buy Me Love
 Song Lyrics:O Tidings Of Comfort And Joy
 Song Lyrics:Oh Give Me A Home Where The Buffalo Roam
 Song Lyrics:You Can Go Your Own Way
 Song Title:All My Loving
 Song Title:Funkytown
-Song Title:Jumpin� Jack Flash
+Song Title:Jumpin' Jack Flash
 Song Title:Like A Rolling Stone
 Song Title:Walking On Sunshine
 Song Title:We Are The Champions
@@ -1348,7 +1348,7 @@ Thing:Camping Gear
 Thing:Cannonball
 Thing:Cashmere Scarf
 Thing:Charming Personality
-Thing:Chauffeur�s Hat
+Thing:Chauffeur's Hat
 Thing:Comfortable Cotton T-Shirt
 Thing:Common Cause
 Thing:Complicated Issue
@@ -1433,7 +1433,7 @@ Thing:Page-Turner
 Thing:Parts & Labor Warranty
 Thing:Perpetual Motion
 Thing:Pillow Talk
-Thing:Pinocchio�s Nose
+Thing:Pinocchio's Nose
 Thing:Police Helicopter
 Thing:Popular Opinion
 Thing:Popular Youtube Video
@@ -1574,10 +1574,10 @@ Things:Warmth & Compassion
 Things:Waves Rolling Onto The Shore
 Things:Wool Gloves
 Title:Commander In Chief
-Title:Men�s Journal
+Title:Men's Journal
 Title:Title:The Call Of The Wild
 Title:The Girl With The Dragon Tattoo
-Title:Writer�s Digest
+Title:Writer's Digest
 TV Show Title:American Idol
 TV Show Title:Jimmy Kimmel Live!
 TV Show Title:Storage Wars
@@ -1597,7 +1597,7 @@ What Are You Doing?:Buying Lunch For My Friends
 What Are You Doing?:Casting My Vote
 What Are You Doing?:Catching Fireflies
 What Are You Doing?:Catching Up On My Reading
-What Are You Doing?:Changing The Baby�s Diapers
+What Are You Doing?:Changing The Baby's Diapers
 What Are You Doing?:Collecting Baseball Cards
 What Are You Doing?:Collecting Scrap Metal
 What Are You Doing?:Combing My Hair
@@ -1636,7 +1636,7 @@ What Are You Doing?:Exchanging Pleasantries
 What Are You Doing?:Feeling Rejuvenated
 What Are You Doing?:Filling In The Gaps
 What Are You Doing?:Flying A Kite
-What Are You Doing?:Getting A Good Night�s Sleep
+What Are You Doing?:Getting A Good Night's Sleep
 What Are You Doing?:Getting A Haircut
 What Are You Doing?:Getting A Second Wind
 What Are You Doing?:Giving Blood
@@ -1665,7 +1665,7 @@ What Are You Doing?:Making Tough Decisions
 What Are You Doing?:Negotiating A Fee
 What Are You Doing?:Night Swimming
 What Are You Doing?:Opening My Bedroom Window
-What Are You Doing?:Ordering Flowers For Mother�s Day
+What Are You Doing?:Ordering Flowers For Mother's Day
 What Are You Doing?:Ordering Pizza Online
 What Are You Doing?:Painting A Fence
 What Are You Doing?:Painting And Sculpting
@@ -1741,10 +1741,10 @@ What Are You Doing?:Watching A Romantic Comedy
 What Are You Doing?:Watching Late-Night TV
 What Are You Doing?:Watching The Local News
 What Are You Doing?:Watching The Sunrise
-What Are You Doing?:Wearing Green On St. Patrick�s Day
+What Are You Doing?:Wearing Green On St. Patrick's Day
 What Are You Doing?:Whipping Up A Quick Dinner
 What Are You Doing?:Window-Shopping
-What Are You Doing?:Working Bankers� Hours
+What Are You Doing?:Working Bankers' Hours
 What Are You Doing?:Working In My Garden
 What Are You Doing?:Working My Way Through School
 What Are You Doing?:Writing A Letter To Santa Claus

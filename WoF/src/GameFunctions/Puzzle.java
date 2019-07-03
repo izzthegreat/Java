@@ -1,9 +1,11 @@
 package GameFunctions;
 
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.Clip;
+import javax.sound.sampled.LineUnavailableException;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;
-import javax.sound.sampled.*;
 
 import static javax.sound.sampled.AudioSystem.getClip;
 
@@ -58,7 +60,7 @@ public class Puzzle {
                 guess=input.next().toUpperCase().charAt(0);
             if (this.unguessedLetters.contains(guess) && this.vowels.contains(guess)) {
                 this.unguessedLetters.remove(this.unguessedLetters.indexOf(guess));
-                Game.getCurrentPlayer().spendMoney(250);
+                Game.getCurrentPlayer().spendMoney();
                 for (int i = 0; i < this.revealedPuzzle.length; i++) {
                     if (this.revealedPuzzle[i] == guess) {
                         letterDing();
@@ -120,8 +122,8 @@ public class Puzzle {
     void solve(String solution){
         String solvedPuzzle = "";
         for(char ltr:this.revealedPuzzle) solvedPuzzle=solvedPuzzle+ltr;
+        System.out.println(solvedPuzzle);
         if (solvedPuzzle.equals(solution.toUpperCase())) {
-            System.out.println(solvedPuzzle);
             System.out.println(Game.getCurrentPlayer().getName() + " Wins with $" + Game.getCurrentPlayer().getWallet() + "!");
             try {
                 audio.open(AudioSystem.getAudioInputStream(new File("audio/PuzzleSolve.wav")));

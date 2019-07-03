@@ -11,11 +11,11 @@ class Player {
 
     int getWallet() { return wallet; }
 
-    void setWallet(int wallet) { this.wallet = wallet; }
+    void bankrupt() { this.wallet = 0; }
 
     void gainMoney(int winnings) { this.wallet += winnings; }
 
-    void spendMoney(int cost) { this.wallet -= cost; }
+    void spendMoney() { this.wallet -= 250; }
 
     int getBank() { return bank; }
 
