@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Site Thingy</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+<div class="container text-center">
+    <h2>Notes</h2>
+    <div class="row">
+        <form th:action="@{/new}" method="get">
+            <button class="btn btn-secondary" type="submit">New Note</button>
+        </form>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="card-columns">
+            <div class="card bg-warning text-center" th:each="note:${notes}" style="width: 25vw">
+                <div class="card-header" th:unless="${note.edit}">
+                    <h3><span th:text="${note.title}"></span></h3>
+                </div>
+                <div class="card-body">
+                    <p  th:unless="${note.edit}" class="card-text"><span th:text="${note.body}"></span></p>
+                    <div th:if="${note.edit}">
+                        <form th:if="${note.isEdit()}" th:id="|edit${note.getID()}|" th:object="${noteEdit}" th:action="@{|/${note.getID()}|}" method="post">
+                            <input type="hidden" th:field="*{iD}" th:value="${note.getID()}">
+                            <input type="text" class="form-control" name="title" th:field="*{title}" placeholder="Title" id="title" th:value="${note.title}" required autofocus>
+                            <textarea class="form-control" name="body" th:field="*{body}" placeholder="Your Message Here!!!" id="body" rows="5" th:value="${note.body}" required></textarea>
+                        </form>
+                    </div>
+                </div>
+                <div class="btn-group" role="group">
+                    <form th:action="@{|/${note.getID()}|}" method="get">
+                        <button th:unless="${note.edit}" class="btn btn-success" type="submit">Edit</button>
+                    </form>
+                    <button class="btn btn-secondary" th:if="${note.edit}" type="submit" th:form="|edit${note.getID()}|">Save</button>
+                    <form th:action="@{|/${note.getID()}|}" method="post">
+                        <input type="hidden" name="_method" value="DELETE"/>
+                        <button class="btn btn-danger">Delete</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

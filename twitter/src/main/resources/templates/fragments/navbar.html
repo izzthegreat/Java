@@ -12,7 +12,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li sec:authorize="isAuthenticated()">
-                    <a th:href="@{/users/} + ${loggedInUser.username}" style="color: #00aced">
+                    <a th:href="@{|/users/${#authentication.getName()}|}" style="color: #00aced">
                     @<span sec:authentication="name"></span></a>
                 <li sec:authorize="isAuthenticated()"><a href="../logout">Logout</a></li>
                 <li sec:authorize="!isAuthenticated()"><a href="../login">Login</a></li>

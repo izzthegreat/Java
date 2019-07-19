@@ -1,6 +1,5 @@
 package com.itw.twitter.controller;
 
-import com.itw.twitter.model.Tweet;
 import com.itw.twitter.model.TweetDisplay;
 import com.itw.twitter.model.User;
 import com.itw.twitter.service.TweetService;
@@ -50,7 +49,7 @@ public class UserController {
     public String getUsers(@RequestParam(value = "filter", required = false) String filter, Model model) {
         List<User> users = new ArrayList<>();
 //        List<User> users = userService.findAll();
-        SetTweetCounts(users, model);
+
         User loggedInUser = userService.getLoggedInUser();
         List<User> usersFollowing = loggedInUser.getFollowing();
         List<User> usersFollowers = loggedInUser.getFollowers();
@@ -67,6 +66,7 @@ public class UserController {
             users = userService.findAll();
             model.addAttribute("filter", "all");
         }
+        SetTweetCounts(users, model);
         SetFollowingStatus(users, usersFollowing, model);
         model.addAttribute("loggedInUser", loggedInUser);
         model.addAttribute("users", users);
