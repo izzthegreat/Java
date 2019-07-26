@@ -2,108 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cdb7aa6-2c6f-416b-99c6-c646c5438dec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Canid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Canine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Carnivore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Chimpanzee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Earth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Feline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/GreatApe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Homo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/HumanTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Mammal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Orangutan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Pan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Panther.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Pongo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Primate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Tiger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Vertibrate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AnimalKingdom/src/Wolf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BookTitles.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainStreet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stores/Bookstore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stores/CoffeeShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stores/ConvenienceStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stores/SandwichShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stores/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stores/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CityProject/src/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CityProject/src/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CityProject/src/RunSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Comments/.idea/libraries/Maven__Arquillian_JUnit_Release.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Comments/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Comments/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Comments/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Comments/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Comments/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Comments/src/NewStuff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Comments/src/Stuff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Comments/src/Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Comments/src/Troll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructuresExcercise/DataStructuresExcercise.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DataStructuresExcercise/src/DataStructuresExercise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorial/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorial/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorial/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorial/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Factorial/src/Factorial.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hanoi/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hanoi/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hanoi/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hanoi/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Hanoi/src/Hanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MergeSort/src/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/7elevenProducts.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/CloverJoeMenu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/NJCMenu.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/MethodsAndClasses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/Bookstore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/CoffeeShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/ConvenienceStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/SandwichShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MethodsandClasses/src/Store/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/Earth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/Human.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/Sparrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOP/src/Zoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOPLab/src/OOPLab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOPLab/src/PLCMC/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOPLab/src/PLCMC/GeneralBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOPLab/src/PLCMC/LibraryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOPLab/src/PLCMC/Loanable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOPLab/src/PLCMC/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOPLab/src/PLCMC/Newpaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOPLab/src/PLCMC/Periodical.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOPLab/src/PLCMC/ReferenceBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OOPLab/src/PLCMC/Reservable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prime/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prime/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prime/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prime/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Prime/src/Prime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Quiz/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Sort Practice/src/SortPractice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoF/Puzzles.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WoF/src/PuzzleReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../calc/src/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../calc/src/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../calc/src/FunctionsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LuckyNumbers/src/LuckyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LuckyNumbers/src/LuckyNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,53 +13,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stores/Utils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Downloads/Classes and Methods Lab.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/MainStreet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stores/Bookstore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -171,24 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Store/Reastaraunt.java" />
-        <option value="$PROJECT_DIR$/src/Store/Store.java" />
-        <option value="$PROJECT_DIR$/src/Store/Bookstore.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/BookTitles.txt" />
-        <option value="$PROJECT_DIR$/src/Stores/Store.java" />
-        <option value="$PROJECT_DIR$/src/Stores/CoffeeShop.java" />
-        <option value="$PROJECT_DIR$/src/Stores/ConvenienceStore.java" />
-        <option value="$PROJECT_DIR$/src/Stores/SandwichShop.java" />
-        <option value="$PROJECT_DIR$/src/Stores/Utils.java" />
-        <option value="$PROJECT_DIR$/src/Stores/Bookstore.java" />
-        <option value="$PROJECT_DIR$/src/MainStreet.java" />
-      </list>
-    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -203,41 +38,12 @@
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectId" id="1OWDdf0fDLiOcCuU72fW9fwGFJo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Books" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Books" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Stores" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="full.screen.before.presentation.mode" value="false" />
@@ -289,172 +95,23 @@
       <updated>1559307625422</updated>
       <workItem from="1559307630370" duration="16746000" />
       <workItem from="1559670516560" duration="529000" />
+      <workItem from="1564084550121" duration="27000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17275000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14447807" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43247864" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.14220877" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.43247864" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Database" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Store/Dineable.java" />
-    <entry file="file://$PROJECT_DIR$/src/Store/Store.java" />
-    <entry file="file://$PROJECT_DIR$/src/Store/Bookstore.java" />
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/BookTitles.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stores/ConvenienceStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stores/CoffeeShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#137#138#0" expanded="true" />
-            <element signature="e#173#174#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stores/SandwichShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stores/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="50" column="24" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="24" />
-          <folding>
-            <element signature="e#1850#1851#0" expanded="true" />
-            <element signature="e#1942#1943#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/Classes and Methods Lab.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SECOND">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stores/Bookstore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stores/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainStreet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>

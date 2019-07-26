@@ -12,7 +12,7 @@
         </div>
         <div class="form-row">
             <div class="col-4">
-                <form th:action="@{/new}" th:object="${note}" method="post" autocomplete="off" >
+                <form th:action="@{/note/new}" th:object="${note}" method="post" autocomplete="off" >
                     <div class="form-group">
                         <input class="form-control" type="text" th:field="*{title}" placeholder="Title" id="title" cols="50"/>
                         <label class="text-danger" th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></label>

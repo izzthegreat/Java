@@ -24,7 +24,7 @@ public class MainController {
         return "index";
     }
 
-//    @GetMapping(value = "/new")
+//    @GetMapping(value = "/note/new")
 //    public String newNote (){
 //        Note note = new Note("A New Note", "Replace This Text");
 //        noteService.save(note);
@@ -32,14 +32,14 @@ public class MainController {
 //        return "redirect:/";
 //    }
 
-    @GetMapping(value = "/new")
+    @GetMapping(value = "/note/new")
     public String getNoteForm(Model model){
         clearEdit();
         model.addAttribute("note", new Note());
         return "newNote";
     }
 
-    @PostMapping(value = "/new")
+    @PostMapping(value = "/note/new")
     public String submitNoteForm(@Valid Note note, BindingResult bindingResult){
         if (!bindingResult.hasErrors()) {
             noteService.save(note);
@@ -48,7 +48,7 @@ public class MainController {
         return "newNote";
     }
 
-    @GetMapping(value = "/{id}")
+    @GetMapping(value = "/note/{id}")
     public String editNote(@PathVariable Long id, Model model){
         clearEdit();
         List<Note> noteList = noteService.findAll();
@@ -60,7 +60,7 @@ public class MainController {
         return "index";
     }
 
-    @PostMapping(value = "/{id}")
+    @PostMapping(value = "/note/{id}")
     public String submitEditNote(@Valid Note note, BindingResult bindingResult, Model model){
         if (!bindingResult.hasErrors()) {
             note.setEdit(false);
@@ -73,7 +73,7 @@ public class MainController {
         return "index";
     }
 
-    @DeleteMapping(value = "/{id}")
+    @DeleteMapping(value = "/note/{id}")
     public String deleteNote(@PathVariable Long id) {
         clearEdit();
         noteService.deleteById(id);
